@@ -1,3 +1,5 @@
+import { describe } from "mocha";
+
 describe('User: Register as a new user and login', () => {
     beforeEach('Navigate to Demo Home page', () => {
         Constellation.navigateToSocialNetworkpage();
