@@ -1,4 +1,5 @@
 import { describe } from "mocha";
+import { Constellation } from "../Constellation.cy";
 
 describe('User: Register as a new user and login', () => {
     beforeEach('Navigate to Demo Home page', () => {

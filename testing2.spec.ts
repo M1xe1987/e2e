@@ -1,7 +1,4 @@
-
-import { expect } from "chai";
-import { Constellation } from "../Constellation.cy";
-
+import { Constellation } from "../support/pageObjects.ts/constellation";
 
 describe('User: Register as a new user and login', () => {
     beforeEach('Navigate to Demo Home page', () => {
@@ -145,7 +142,7 @@ describe('User: Register as a new user and login', () => {
         Constellation.enterPassword('constel123');
         Constellation.clickOnConfirmbtn();
         cy.wait(3000);
-        cy.scrollTo('bottom');
+        cy.scrollTo('center');
 
         // Start recording
         Constellation.clickToStartAudioPost();
