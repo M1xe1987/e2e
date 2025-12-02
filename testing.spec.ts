@@ -1,7 +1,11 @@
 
 import { expect } from "chai";
+<<<<<<< HEAD
 import { Constellation } from "../Constellation.cy";
 
+=======
+import { Constellation } from "../support/pageObjects.ts/constellation";
+>>>>>>> 324fecad525b98cccd8c411cff86b5f8bbc86e81
 
 describe('User: Register as a new user and login', () => {
     beforeEach('Navigate to Demo Home page', () => {
