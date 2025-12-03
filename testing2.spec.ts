@@ -1,4 +1,6 @@
-import { Constellation } from "../support/pageObjects.ts/constellation";
+import { Constellation } from "../pages/Constellation.cy";
+
+
 
 describe('User: Register as a new user and login', () => {
     beforeEach('Navigate to Demo Home page', () => {

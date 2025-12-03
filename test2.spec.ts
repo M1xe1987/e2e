@@ -1,3 +1,4 @@
+import { expect } from "chai";
 import { Test } from "../support/pageObjects.ts/test";
 
 
